@@ -1,0 +1,29 @@
+{
+    "name": "adamicky/basic-preset",
+    "description": "The default Laravel preset by Marek Adamicky",
+    "keywords": ["laravel", "laravel preset", "adamicky"],
+        "license": "GNU General Public License v3.0",
+    "authors": [
+        {
+            "name": "Marek Adamicky",
+            "email": "marek.adamicky@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Adamicky\\BasicPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adamicky\\BasicPreset\\PresetServiceProvider"
+            ]
+        }
+    }
+}
